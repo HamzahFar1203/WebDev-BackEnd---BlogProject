@@ -1,0 +1,238 @@
+html, body {
+
+    width: 100vw;
+    max-height: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F2F1EB;
+
+}
+
+/* HEADER */
+nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100vw;
+    background-color: #AFC8AD;
+
+}
+
+.logo-div {
+
+    padding-left: 1em;
+    background-color: #88AB8E;
+
+}
+
+.logo-div > p {
+
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    padding: 1em 1em 1em 0em;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.nav-buttons {
+
+    display: flex;
+    gap: 1em;
+    padding: 1em 1em 1em 1em;
+
+}
+
+.nav-buttons > p {
+
+    margin: 0;
+
+}
+
+.nav-buttons > p > a {
+
+    text-decoration: none;
+    color: black;
+    transition: border 200ms;
+
+}
+
+.nav-buttons > p > a:hover {
+
+    border-bottom: 4px solid white;
+
+}
+
+.active-nav-item {
+
+    border-bottom: 4px solid white;
+
+}
+
+
+
+
+
+
+/* INDEX */
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+}
+
+.blog-post-form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    width: 70vw;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    background-color: #EEE7DA;
+
+}
+
+.blog-post-form > section {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog-post-form > section > textarea {
+
+    height: 7em;
+
+}
+
+.blog-post-form > button {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #EEE7DA;
+    background-color: #88AB8E;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 500ms;
+
+}
+
+.blog-post-form > button:hover {
+
+    background-color: #6a9971;
+
+}
+
+.blog-post-form > section > input {
+
+    padding: 5px 5px 5px 5px;
+
+}
+
+.post-delete-form {
+    display: flex;
+    width: 70vw;
+    justify-content: center;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    background-color: #EEE7DA;
+}
+
+.post-delete-form > input {
+    width: 5em;
+}
+
+.post-delete-form > button {
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    color: white;
+    background-color: red;
+
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+
+.post-delete-form > button:hover {
+    background-color: rgb(211, 0, 0);
+}
+
+.blog-posts-container {
+
+    margin-top: 1em;
+    width: 70vw;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #EEE7DA;
+
+}
+
+.post-container {
+    background-color: #dac8a7;
+    margin-bottom: 1em;
+}
+
+.post-container > section > p {
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.post-top > p {
+    color: #b1945f;
+    font-size: 10px;
+}
+
+.post-middle > p {
+    background-color: #dbc191;
+    color: #806941;
+    font-weight: bolder;
+}
+
+.post-bottom > p {
+    color: #806941;
+}
+
+
+
+
+
+
+/* FOOTER */
+footer {
+
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 1em;
+    background-color: #AFC8AD;
+
+}
+
+footer > p {
+
+    margin: 0;
+    color:#507956;
+
+}
